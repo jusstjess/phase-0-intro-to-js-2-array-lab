@@ -19,11 +19,12 @@ function appendCat(name){
     return newCats;
 }
 
-prependCat= name => {let newCats = [...cats]; 
+function prependCat(name){let newCats = [...cats]; 
 newCats.unshift(name); return newCats; }
 
-removeLastCat = () =>{ let newCats = [...cats]; 
+function removeLastCat()
+{ let newCats = [...cats]; 
 newCats.pop(); return newCats;}
 
-removeFirstCat = () => {let newCats =[...cats]; 
+function removeFirstCat(){let newCats =[...cats]; 
 newCats.shift(); return newCats}
