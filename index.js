@@ -19,12 +19,17 @@ function appendCat(name){
     return newCats;
 }
 
-function prependCat(name){let newCats = [...cats]; 
-newCats.unshift(name); return newCats; }
+function prependCat(name){
+let newCats = [...cats]; 
+newCats.unshift(name); 
+return newCats; }
 
-function removeLastCat()
-{ let newCats = [...cats]; 
-newCats.pop(); return newCats;}
+function removeLastCat(){ 
+let newCats = [...cats]; 
+newCats.pop(); 
+return newCats;}
 
-function removeFirstCat(){let newCats =[...cats]; 
-newCats.shift(); return newCats}
+function removeFirstCat(){
+let newCats =[...cats]; 
+newCats.shift(); 
+return newCats;}
