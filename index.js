@@ -25,11 +25,13 @@ newCats.unshift(name);
 return newCats; }
 
 function removeLastCat(){ 
-let newCats = [...cats]; 
+const newCats = [...cats]; 
 newCats.pop(); 
-return newCats;}
+return newCats;
+}
 
 function removeFirstCat(){
-let newCats =[...cats]; 
+const newCats =[...cats]; 
 newCats.shift(); 
-return newCats;}
+return newCats;
+}
